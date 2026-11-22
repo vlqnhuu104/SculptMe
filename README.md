@@ -28,3 +28,11 @@ Follow the prompts. For production deployment, run `vercel --prod`.
 - Hydration and meal records can be lost if browser data is cleared or a different browser is used.
 - This is the existing MVP, not a fully tested production app.
 - A deployed HTTPS site is not automatically a native iPhone app, nor does it add background notifications.
+
+
+## Mobile v1.0 fix
+Bottom navigation now uses six equal columns for six tabs, larger tap targets and iPhone safe-area spacing. Deploy the updated index.html to replace the previous version.
+
+
+## App icon
+Includes the approved anime + SM app icon and Apple touch icon. Upload ALL files in this directory to the GitHub repository root, replacing index.html and README.md. After Vercel deploys, remove the old iPhone Home Screen shortcut and add the website again from Safari.
